@@ -1,10 +1,10 @@
 {
   "mappings": [
     "/content/wknd-xwalk/:/",
-    "/content/knd-xwalk/configuration:/.helix/config.json",
-    "/content/knd-xwalk/metadata:/metadata.json"
+    "/content/wknd-xwalk/configuration:/.helix/config.json",
+    "/content/wknd-xwalk/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/knd-xwalk/"
+    "/content/wknd-xwalk/"
   ]
 }
