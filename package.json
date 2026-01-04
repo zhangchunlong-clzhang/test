@@ -12,7 +12,8 @@
     "build:json:models": "merge-json-cli -i \"models/_component-models.json\" -o \"component-models.json\"",
     "build:json:definitions": "merge-json-cli -i \"models/_component-definition.json\" -o \"component-definition.json\"",
     "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clear-cache":"node hlxAdmin.js cache"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,8 @@
     "stylelint-config-standard": "39.0.1"
   },
   "dependencies": {
-    "@adobe/aem-cli": "^16.16.17"
+    "@adobe/aem-cli": "^16.16.17",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3"
   }
 }
